@@ -1,6 +1,6 @@
-import HeaderTitle from "@components/headerTitle";
-import Navbar from "@components/navbar";
-import Footer from "@components/footer";
+import HeaderTitle from "@/pages/components/HeaderTitle";
+import Navbar from "@/pages/components/Navbar";
+import Footer from "@/pages/components/Footer";
 
 import { Box } from "@mui/material";
 import styles from '@/styles/Home.module.css'

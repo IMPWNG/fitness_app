@@ -1,8 +1,11 @@
-
+import Link from "@components/Link";
+import headerNavLinks from "@/data/HeaderNavLinks";
 
 export default function Navbar() {
   return (
-    <div>navbar</div>
+    <div>
+    testdddd1
+    </div>
   )
 }
 
