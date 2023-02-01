@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-export default function Header() {
+export default function HeaderTitle() {
   return (
     <Head>
       <title>Fitness App</title>
