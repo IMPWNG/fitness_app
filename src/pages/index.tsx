@@ -13,11 +13,7 @@ export default function Home() {
     <>
       <HeaderTitle />
       <Box width="400px" sx={{ width: { xl: '1488px'}}} m="auto">
-    
         <HeroBanner />
-        <SearchExercises />
-        <Exercices />
-
       </Box>
     </>
   )
