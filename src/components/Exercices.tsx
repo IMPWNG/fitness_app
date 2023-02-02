@@ -1,13 +1,7 @@
 import { Typography } from "@mui/material"
 import SearchExercices from "./SearchExercices"
 
-interface ExercicesProps {
-
-}
-
-function Exercices({ }: ExercicesProps) {
-
-
+function Exercices() {
 
   return (
     <>
