@@ -7,7 +7,7 @@ function SearchExercices() {
 
   const [search, setSearch] = useState('');
   const [exercices, setExercices] = useState([]);
-  const [bodyParts, setBodyParts] = useState([]);
+  const [bodyParts, setBodyParts] = useState(['']);
 
   useEffect(() => {
 
