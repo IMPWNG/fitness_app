@@ -5,7 +5,7 @@ import HorizontalScrollbar from "./HorinzontalScrollbar";
 
 interface SearchExercicesProps {
   setExercices: any;
-  bodyPart: string;
+  bodyPart: string[];
   setBodyPart: any;
 }
 

@@ -3,9 +3,10 @@ import SearchExercices from "@/components/SearchExercices";
 import { useState } from "react";
 import { Box } from "@mui/material";
 
-const Exercice = () => {
+const ExerciceDetails = () => {
+
   const [exercices, setExercices] = useState([]);
-  const [bodyPart, setBodyPart] = useState(["all"]);
+  const [bodyPart, setBodyPart] = useState([]);
 
   return (
     <Box width="400px" sx={{ width: { xl: "1488px" } }} m="auto">
@@ -18,6 +19,4 @@ const Exercice = () => {
   );
 };
 
-export default Exercice;
-
-//rename exercices and pass array of exercices to exercices component
+export default ExerciceDetails;

@@ -3,7 +3,7 @@ const headerNavLinks = [
         href: '/', title: 'Home'
     },
     {
-        href: '/Exercice', title: 'Exercices'
+        href: '/ExerciceDetails', title: 'Exercice Details'
     },
 ]
 

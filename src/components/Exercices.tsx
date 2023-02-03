@@ -4,8 +4,8 @@ import { useState } from "react"
 
 interface ExercicesProps {
   setExercices: any;
-  bodyPart: string;
-  setBodyPart: any;
+  bodyPart: string[];
+  setBodyPart: [''];
 }
 
 const Exercices = ({ setExercices, bodyPart, setBodyPart }: ExercicesProps) => {
