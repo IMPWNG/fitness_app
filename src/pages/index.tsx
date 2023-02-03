@@ -1,14 +1,8 @@
 import HeaderTitle from "@/components/HeaderTitle";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import { useState } from "react";
 import HeroBanner from "@/components/HeroBanner";
-import SearchExercises from "@/components/SearchExercices";
-import Exercices from "@/components/Exercices";
 import { Box } from "@mui/material";
-import styles from '@/styles/Home.module.css'
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <HeaderTitle />
@@ -18,3 +12,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home

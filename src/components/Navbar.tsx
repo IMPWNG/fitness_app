@@ -4,8 +4,7 @@ import LogoApp from "@assets/images/logo.png";
 import Image from "next/image";
 import { Stack, Divider } from "@mui/material";
 
-
-export default function Navbar() {
+const Navbar = () => {
 
   const Logo = () => (
     <div className="px-12 py-4">
@@ -37,10 +36,8 @@ export default function Navbar() {
         
         </div>
       ))}
-
     </Stack>
-
-  
   )
 }
 
+export default Navbar

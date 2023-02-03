@@ -5,7 +5,7 @@ interface HeroBannerProps {
   open?: boolean
 }
 
-function HeroBanner({ open }: HeroBannerProps) {
+const HeroBanner = ({ open }: HeroBannerProps) => {
 
   const [openDialog, setOpenDialog] = useState(open)
 

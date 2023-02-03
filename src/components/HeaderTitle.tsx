@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-export default function HeaderTitle() {
+const HeaderTitle = () => {
   return (
     <Head>
       <title>Fitness App</title>
@@ -10,4 +10,6 @@ export default function HeaderTitle() {
     </Head>
   );
 }
+
+export default HeaderTitle;
 

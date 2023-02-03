@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import Image from "next/image";
 import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
 import { Box, Typography } from '@mui/material';
-
+import BodyParts from './BodyParts';
 import RightArrowIcon from '../assets/icons/right-arrow.png';
 import LeftArrowIcon from '../assets/icons/left-arrow.png';
 
@@ -26,18 +26,23 @@ const RightArrow = () => {
     );
 };
 
-const HorizontalScrollbar = ({ data }: any ) => (
+
+interface HorinzontalScrollbarProps {
+    data: any[];
+    bodyPart: string;
+    setBodyPart: any;
+}
+
+const HorizontalScrollbar = ({ data, bodyPart, setBodyPart }: HorinzontalScrollbarProps) => (
     <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
-        {data!.map((item: any) => (
+        {data.map((item: any) => (
             <Box 
                 key={item.id || item}
                 itemID={item.id || item}
                 title={item.id || item}
                 m="0 40px"
             >
-                {item === 'all' ? <Typography variant="h5" sx={{ color: '#fff', textTransform: 'uppercase' }}>{item}</Typography> : <Image src={item.image} alt={item.name}  />}
-
-
+                <BodyParts item={item} bodyPart={bodyPart} setBodyPart={setBodyPart} />
           </Box>
         ))}
     </ScrollMenu>

@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 
-export default function Footer() {
+const Footer = () => {
   return (
     <Box
       bgcolor='primary.main'
@@ -19,4 +19,6 @@ export default function Footer() {
 
   )
 }
+
+export default Footer
 
